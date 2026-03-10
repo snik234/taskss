@@ -49,3 +49,5 @@ class Like(models.Model):
 
     class Meta:
         unique_together = ('comment', 'user')  # Забезпечує унікальність лайків
+
+
